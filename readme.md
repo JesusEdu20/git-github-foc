@@ -35,6 +35,7 @@ git init // Este comando crea un repositorio Git vacío.
 
 ```
 git status
+git status - s (para resumen) 
 ```
 3. Luego debes llevar esos cambios a la zona *staging*, con el comando :
 ```
@@ -43,9 +44,22 @@ git add . // si colocas el punto despues de la palabra add "." le estas confirma
 
 git add ./ruta/del/archivo.js // Tambien puedes indicarle a git especificamente que archivo (en donde hay cambios) quieres confirmar.
 ```
+4. Luego creamos un *commit* qué es un indicador de cambios ejecutados en el repositorio:
+
+```
+git commit -m "Nombre referencia a los cambios ejecutados" 
+```
+
+# Como ver los commits realizados? 
+```
+git log
+git log --oneline (para ver los commits resumidos) 
+```
 
 # Que es el staging?
 El Staging es el lugar de preparación en la RAM antes de enviar los cambios de nuestro archivo en repositorio. El repositorio es el lugar donde se almacenan los cambios de nuestro archivo.
+
+
 
 # Que es una rama?
 Una rama o branch es una versión del código del proyecto sobre el que estás trabajando.
