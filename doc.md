@@ -47,4 +47,31 @@ git add ./ruta/del/archivo.js // Tambien puedes indicarle a git especificamente 
 # Que es el staging?
 El Staging es el lugar de preparación en la RAM antes de enviar los cambios de nuestro archivo en repositorio. El repositorio es el lugar donde se almacenan los cambios de nuestro archivo.
 
-### Que es una rama?
+# Que es una rama?
+Una rama o branch es una versión del código del proyecto sobre el que estás trabajando.
+
+## Como puedo crear una rama ?
+
+```
+git branch <nombre-de-la-rama>
+```
+
+## Como puedo cambiar la rama en la que estoy trabajando?
+
+```
+git checkout <nombre-de-la-rama-a-donde-deseas-ir>
+```
+
+## Como puedo renombrar una rama?
+Posicionate (checkout) en la rama que deseas renombrar
+```
+git branch -m <nuevo-nombre>
+```
+
+## Como puedo eliminar una rama?
+
+```
+git branch -d <nombre-de-la-rama>
+```
+
+
